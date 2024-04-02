@@ -1,0 +1,6 @@
+[submodule "Programação Web - CC0038/Trabalho - Eczabyte/eczabyte-front"]
+	path = Programação Web - CC0038/Trabalho - Eczabyte/eczabyte-front
+	url = git@github.com:DanielNasc/eczabyte-front.git
+[submodule "Databases"]
+	path = Databases
+	url = git@github.com:GersonFeDutra/databases.git
