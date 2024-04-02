@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hello Javascrispto!</title>
+	<style>
+		body {
+			background-color: #0bca6a;
+			color: whitesmoke;
+			font: normal 20pt Arial;
+		}
+		p {
+			font-size: 11pt;
+		}
+	</style>
+</head>
+<body>
+	<h1>Hello, World!</h1>
+	<h2>Document Object Model</h2>
+	<p><strong = id="lorem">Lorem</strong> ipsum dolor sit amet, consectetur adipiscing elit.
+	In gravida arcu at sapien imperdiet, ut ornare orci pretium. Maecenas ac dui et leo euismod
+	efficitur. Phasellus aliquet massa quis arcu porta tristique. Proin id quam sed magna facilisis
+	mollis sed vel urna. Etiam condimentum risus in turpis egestas tincidunt in
+	<strong name="vivamus">vitae</strong> lorem.
+	Maecenas bibendum nibh est, sit amet tristique dolor mollis ac. Integer dui eros, fringilla in
+	auctor a, iaculis vel elit. Pellentesque convallis orci at libero fermentum, dictum molestie ex
+	posuere. Phasellus leo purus, luctus at enim eget, blandit dictum lorem. Ut purus nibh, sodales
+	ac ultrices ut, ullamcorper at massa.  Fusce tellus est, congue at malesuada at, lobortis
+	suscipit est. Praesent vulputate varius risus, sed efficitur lorem elementum et. Aliquam quis
+	gravida metus.</p>
+	<p class="p2">Nullam nec turpis at ipsum cursus tristique eu eu arcu. Donec vel dolor
+		condimentum nulla imperdiet laoreet vel ac libero. Phasellus convallis lectus ac ultrices
+		convallis. Duis egestas, lectus ut accumsan bibendum, dui nisi rutrum mauris, dignissim
+		consectetur mi lorem id urna. <strong name="vivamus">Vivamus</strong> tincidunt pharetra
+		lectus, <strong>vitae</strong> porttitor odio pretium ut. Morbi semper, diam quis tincidunt
+		vestibulum, massa enim auctor felis, sit amet mollis nibh semper, diam quis tincidunt
+		vestibulum, massa enim auctor felis, sit amet mollis nibh diam in ipsum. Sed congue in elit
+		<strong name="vivamus">vitae</strong> accumsan. Mauris non elementum libero. Pellentesque
+		diam in ipsum. Sed congue in elit <strong name="vivamus">vitae</strong> accumsan. Mauris
+		non elementum libero. Pellentesque a posuere felis. Duis in bibendum nulla. Nec lobortis
+		velit dui id enim. Pellentesque a posuere felis. Duis in bibendum nulla.</p>
+	<p class="p2">Integer tellus arcu, pulvinar nec lectus a, posuere fringilla massa. Donec
+		volutpat, purus etiat elementum. Nam gravida, eros quis efficitur lacinia, libero arcu
+		congue risus, quis aliquam enim dolor vel ante. Sed id interdum ipsum, ac consequat purus.
+	</p>
+	<script>
+		// document.write(`Hello!<br>`)
+		// window.document.write(`${window.document.charset}<br>`)
+		// window.document.write(`${window.navigator.appName}<br>`)
+		// window.document.write(`${window.document.URL}<br>`)
+
+		// var h1 = window.document.getElementsByTagName('h1')[0]
+		// window.document.write(`${h1.innerText}<br>`)
+		// h1.style.color = '#7001CC'
+		var body = window.document.body
+		body.style.background = '#262335'
+		// document.write(h1.innerText)
+		// document.write(body.innerHTML)
+		// var lorem = window.document.getElementById('lorem')
+		// lorem.style.background = '#D39EE2'
+		// lorem.style.color = '#262335'
+		// var vitae = window.document.getElementsByName('vivamus')[0]
+		// vitae.innerText = 'vitalus'
+		// var p2s = window.document.getElementsByClassName('p2')
+
+		// for (let i = 0; i < p2s.length; i++) {
+		// 	const p2 = p2s[i];
+		// 	p2.style.background = '#0bca6a11'
+		// }
+		var lorem = window.document.querySelector('strong#lorem')
+		lorem.style.color = '#D39EE2'
+	</script>
+</body>
+</html>

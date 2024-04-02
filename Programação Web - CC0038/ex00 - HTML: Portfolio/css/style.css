@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(32, 33, 39);
+    color: beige;
+    /* accent-color: tomato; */
+    /* text-emphasis-color: tomato; */
+}
+
+a {
+    color: hotpink;
+}
+a:visited {
+    color: tomato;
+}
+a:visited:hover {
+    color: orange;
+}
+a:hover {
+    color: plum;
+}
+
+main, #tools {
+    margin: 1em;
+}
+
+header {
+    font-family: cursive;
+    float: right;
+}
+
+header+ul+li {
+    
+}
+
+#zelda, #languages {
+    float: right;
+}
+
+nav {
+    background-color: mediumseagreen;
+}
+nav>ul {
+    margin: 0px;
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 614.39766 499.00444"
+   version="1.1"
+   id="svg58"
+   sodipodi:docname="twitter.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   width="460.79825pt"
+   height="374.25333pt">
+  <metadata
+     id="metadata64">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs62">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter462">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,255)"
+         result="flood"
+         id="feFlood452" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite454" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="10"
+         result="blur"
+         id="feGaussianBlur456" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset458" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite460" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter1104">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,255)"
+         result="flood"
+         id="feFlood1094" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite1096" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="60"
+         result="blur"
+         id="feGaussianBlur1098" />
+      <feOffset
+         dx="30"
+         dy="30"
+         result="offset"
+         id="feOffset1100" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite1102" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#161925"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="743"
+     id="namedview60"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     units="pt"
+     inkscape:zoom="0.77754125"
+     inkscape:cx="424.58128"
+     inkscape:cy="301.54343"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg58"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:document-rotation="0" />
+  <!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
+  <path
+     d="m 510.5698,145.2177 c 0.325,4.548 0.325,9.097 0.325,13.645 0,138.72 -105.583,298.558 -298.558,298.558 -59.452,0 -114.679998,-17.219 -161.136998,-47.106 8.447,0.974 16.568,1.299 25.34,1.299 49.054998,0 94.212998,-16.568 130.273998,-44.832 -46.132,-0.975 -84.792,-31.188 -98.112,-72.772 6.498,0.974 12.995,1.624 19.818,1.624 9.421,0 18.843,-1.3 27.614,-3.573 -48.081,-9.747 -84.142998,-51.98 -84.142998,-102.985 v -1.299 c 13.969,7.797 30.213998,12.67 47.430998,13.319 -28.263998,-18.843 -46.780998,-51.005 -46.780998,-87.391 0,-19.491998 5.197,-37.359998 14.294,-52.953998 C 138.5898,124.4257 216.2348,166.0087 303.2998,170.5577 c -1.624,-7.797 -2.599,-15.918 -2.599,-24.04 0,-57.827998 46.782,-104.933998 104.934,-104.933998 30.213,0 57.502,12.67 76.67,33.137 23.715,-4.548 46.456,-13.32 66.599,-25.34 -7.798,24.366 -24.366,44.833 -46.132,57.826998 21.117,-2.273 41.584,-8.121998 60.426,-16.242998 -14.292,20.790998 -32.161,39.307998 -52.628,54.252998 z"
+     id="path56"
+     style="fill:#ffffff;filter:url(#filter1104);stroke:#4e4da9;stroke-opacity:1;stroke-width:1.3333333;stroke-dasharray:none" />
+</svg>

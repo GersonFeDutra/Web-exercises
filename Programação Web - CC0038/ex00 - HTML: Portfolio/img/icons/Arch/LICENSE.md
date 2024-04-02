@@ -1,0 +1,1 @@
+[arch-logo.png](./arch-logo.png) obtida do [site oficial](https://archlinux.org/art/) sujeita aos termos da marca registrada [encontrados aqui](https://wiki.archlinux.org/title/DeveloperWiki:TrademarkPolicy).
